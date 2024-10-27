@@ -1,0 +1,53 @@
+/* .whatsapp_float{
+    position:fixed;
+    bottom:40px;
+    right:20px;
+} */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+.whatsapp_float img{
+    width: 180px;;
+    position:fixed;
+    bottom: 25px;
+    right:25px;
+}
+nav ul li{
+ text-decoration: none;
+ text-emphasis: none;  
+ margin-right: 40px;
+ margin-top: 40px;
+}
+nav ul {
+    text-decoration: none;
+    list-style-type: none; 
+
+}
+nav ul{
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color:rgb(23, 110, 249) ; /* Sets link color (optional) */
+}
+
+/* Optional: Change color on hover */
+nav ul li a:hover {
+    color:rgb(7, 224, 195); /* Change to a blue color on hover */
+}
+.title{
+    background-color: rgb(209, 209, 226);
+    width: auto;
+    height: 80px;
+}
+.title .num{
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.spacer{
+    margin-top: 10px;
+}
