@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /private/
+Disallow: /temporary/
+
+Sitemap: https://sabitasubedi.com.np/sitemap.xml
